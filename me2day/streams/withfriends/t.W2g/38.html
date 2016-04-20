@@ -1,0 +1,4407 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>영민군님의 친구들과</title>
+    <link href="../../../styles/write_form.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/mystream_1.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/mystream_2.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/friends.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/common_layout.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/colorbox.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/topbar.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/post.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/profile.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/windows.css" media="screen" rel="stylesheet" type="text/css">
+<link href="../../../styles/safari.css" media="screen" rel="stylesheet" type="text/css">
+<style type="text/css" id="e1_style">
+.menu_navi ul li a {
+  display: block;
+  zoom: 1;
+  line-height: 34px;
+  font-size: 12px;
+  letter-spacing: -1px;
+  color: #666;
+  text-indent: 16px;
+  text-decoration: none;
+  background: url(../../../images/common/side_menu_common_bg.gif) no-repeat;
+}
+
+.c_topbar {
+  position: relative;
+  z-index: 10002;
+  margin-bottom: -2px;
+  padding-bottom: 2px;
+  background: url(../../../images/common/bg_c_topbar_myme2.png) repeat-x scroll 0 0;
+}
+
+.menu_navi ul li .sub_list {
+  padding: 6px 0 20px;
+  background: url(../../../images/stream/side_menu_bg_sub.png) no-repeat left bottom;
+}
+
+.content_breadcrum .parent {
+  float: left;
+  position: relative;
+  top: 6px;
+  display: inline-block;
+  height: 29px;
+  margin-right: 5px;
+  padding-right: 21px;
+  background: url(../../../images/friend_manage/bg_breadcrum1.gif) no-repeat 100% 5px;
+  font-weight: bold;
+  color: #888;
+}
+
+.content_header {
+  position: relative;
+  z-index: 4;
+  background: url(../../../images/stream/bg_mystream_head_tab_49.png) no-repeat scroll left top transparent;
+  color: #353535;
+  font-size: 12px;
+  font-weight: bold;
+  height: 51px;
+  line-height: 50px;
+  padding: 0 25px 0 24px;
+  text-align: center;
+}
+
+* html .content_header {
+  position: static;
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../../../images/stream/bg_mystream_head_tab_49.png, sizingMethod='crop');
+}
+
+.content_breadcrum .all_friend {
+  float: left;
+  position: relative;
+  top: 2px;
+  left: 4px;
+  display: inline-block;
+  height: 29px;
+  padding-right: 24px;
+  color: #565656;
+  text-decoration: none !important;
+}
+
+.content_breadcrum .all_friend .group_name {
+  display: inline-block;
+  height: 29px;
+  padding: 0 0 2px 8px;
+  background: transparent url(../../../images/friend_manage/bg_friend_cate_left.gif) no-repeat 0 0;
+  color: #333;
+  font-weight: bold;
+}
+
+.contents_wrap {
+  position: relative;
+  z-index: 1;
+  min-height: 583px;
+  _height: 583px;
+  padding-bottom: 50px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+}
+
+.myst_marketing_notice {
+  padding: 15px 0 0 34px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+}
+
+.watch_header {
+  z-index: 2;
+  position: relative;
+  padding: 17px 0 0;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+}
+
+.myst_notice {
+  padding: 0 5px 0;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+}
+
+.event_banner_view {
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  height: auto;
+  padding: 0px 5px 0 5px;
+  z-index: 4;
+  font-size: 11px;
+}
+
+.setting_moa_view {
+  position: relative;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  height: auto;
+  padding: 25px 34px 0 35px;
+  z-index: 4;
+  font-size: 11px;
+}
+
+.setting_moa {
+  position: relative;
+  padding: 11px 0 0;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  font-size: 12px;
+}
+
+.mission_guide {
+  padding: 25px 0 0 37px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+  font-size: 11px;
+  zoom: 1;
+}
+
+.another_tag {
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+  padding: 15px 0 0 38px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  font-size: 12px;
+}
+
+.another_cal {
+  overflow: hidden;
+  zoom: 1;
+  position: relative;
+  padding: 15px 0 0 80px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  font-size: 12px;
+}
+
+.me_sub_title {
+  position: relative;
+  z-index: 1;
+  width: 829px;
+  overflow: hidden;
+  padding: 7px 0 9px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  zoom: 1;
+}
+
+.friends_view_type {
+  position: relative;
+  z-index: 2;
+  padding: 22px 35px 0 37px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y 0 0;
+}
+
+.single #friends_list {
+  overflow: hidden;
+  zoom: 1;
+  padding: 30px 38px 15px;
+  font-size: 14px;
+  background: url(../../../images/stream/bg_mystream_repeat_y2.png) repeat-y left top;
+}
+
+.single .single_wrap2 .contents_wrap {
+  overflow: hidden;
+  zoom: 1;
+  padding: 15px 0px 15px;
+  font-size: 14px;
+  background: url(../../../images/stream/bg_mystream_repeat_y2.png) repeat-y left top;
+}
+
+.single .single_wrap2 .common_result {
+  background-image: url(../../../images/stream/bg_mystream_repeat_y2.png)
+}
+
+.single .single_wrap2 .page_navi2 {
+  padding-bottom: 10px;
+  background: url(../../../images/stream/bg_mystream_repeat_y2.png) repeat-y left top;
+}
+
+.belt_bn {
+  padding: 0 5px 0;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y scroll 0 0 transparent;
+}
+
+.activity_noti {
+  position: relative;
+  overflow: hidden;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  height: auto;
+  padding: 25px 34px 0 35px;
+  z-index: 4;
+  font-size: 11px;
+}
+
+#announcement_section {
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y 0 0;
+}
+
+.common_result {
+  position: relative;
+  z-index: 2;
+  padding: 27px 35px 0 37px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y 0 0;
+}
+
+* html .common_result {
+  height: 46px;
+  zoom: 1;
+  background: none;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=../../../, sizingMethod='scale');
+}
+
+.flashback_wrap .me_sub_title {
+  position: relative;
+  padding-top: 14px;
+  background: url(../../../images/stream/bg_mystream_repeat_y.png) repeat-y;
+  zoom: 1;
+}
+
+.btn_type_default_10 {
+  display: inline-block;
+  height: 25px;
+  margin: 0 2px;
+  padding: 0 0 0 2px !important;
+  overflow: visible;
+  vertical-align: top;
+  background: url(../../../images/button/btn_default_type1_l.png) no-repeat left top;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.setting_moa_view button {
+  width: auto;
+  height: 25px;
+  margin-left: 5px;
+  margin-right: 0;
+  padding-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 0;
+  color: #777;
+  text-align: center;
+  border: 0;
+  background-image: url(../../../images/button/btn_default_type1_l.png);
+  vertical-align: baseline;
+}
+
+.btn_type_default_1 {
+  display: inline-block;
+  height: 25px;
+  margin: 0 2px;
+  padding: 0 0 0 2px !important;
+  overflow: visible;
+  vertical-align: top;
+  background: url(../../../images/button/btn_default_type1_l.png) no-repeat left top;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn_type_default_1 .btn_inner {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  height: 25px;
+  margin: 0 !important;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_default_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_default_1 .btn {
+  display: inline-block;
+  height: 25px;
+  margin: 0 !important;
+  padding: 0 5px;
+  vertical-align: top;
+  border: 0;
+  text-decoration: none !important;
+  text-align: center;
+  background: url(../../../images/button/btn_default_type1.png) repeat-x;
+}
+
+.btn_pressed {
+  cursor: default !important;
+  background-image: url(../../../images/button/btn_default_type1_l_pressed.png);
+}
+
+.btn_type_default_4 .btn_inner {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  height: 25px;
+  margin: 0 !important;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_default_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_default_4 .btn {
+  display: inline-block;
+  height: 25px;
+  margin: 0 !important;
+  padding: 0 5px;
+  vertical-align: top;
+  border: 0;
+  text-decoration: none !important;
+  text-align: center;
+  background: url(../../../images/button/btn_default_type1.png) repeat-x;
+}
+
+.btn_type_default_4 .status {
+  display: inline-block;
+  width: auto !important;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 17px;
+  background: url(../../../images/button/bul_metoo_1.gif) no-repeat scroll 0 center;
+}
+
+.btn_type_default_4 {
+  display: inline-block;
+  height: 25px;
+  margin: 0 2px 0 0;
+  padding: 0 0 0 2px !important;
+  overflow: visible;
+  vertical-align: top;
+  background: url(../../../images/button/btn_default_type1_l.png) no-repeat left top;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+
+.contents_wrap .sec_post .metoo_count .count_plus {
+  display: inline-block;
+  margin-right: 5px;
+  padding: 0 0 0 19px;
+  white-space: nowrap;
+  font-weight: bold;
+  font-size: 12px;
+  color: #937cd8;
+  text-decoration: none;
+  background: url(../../../images/stream/bg_me2_count_l.gif) no-repeat left top;
+  cursor: pointer;
+  _cursor: hand;
+}
+
+.post .post_body .post_added .metoo_count .metoo_count_number {
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  margin: 0 0 0 -4px;
+  padding: 0 0 0 5px;
+  vertical-align: top;
+  color: #7b5fd4;
+  text-decoration: none;
+  white-space: nowrap;
+  background: url(../../../images/post/bg_me2_count_l.png) no-repeat 0 0;
+}
+
+.contents_wrap .sec_post .metoo_count .count_plus span {
+  display: inline-block;
+  height: 23px;
+  padding: 0 7px 0 3px;
+  line-height: 23px;
+  background: url(../../../images/stream/bg_me2_count_r.gif) no-repeat scroll right top;
+}
+
+.post .post_body .post_added .metoo_count .metoo_count_number .bg {
+  display: inline-block;
+  position: static;
+  width: auto;
+  height: 25px;
+  margin: 0;
+  line-height: 25px;
+  padding: 0 8px 0 6px;
+  vertical-align: top;
+  text-align: center;
+  font-family: tahoma;
+  font-size: 11px;
+  font-weight: bold;
+  background: url(../../../images/post/bg_me2_count_r.png) no-repeat 100% 0;
+}
+
+.no_more_no_navi {
+  padding-bottom: 11px;
+  background: url(../../../images/stream/bg_mystream_bottom2.png) no-repeat bottom right;
+}
+
+.more_view {
+  position: relative;
+  width: 100%;
+  height: 51px;
+  background: url(../../../images/stream/bg_mystream_bottom.png) no-repeat;
+}
+
+.page_navi {
+  position: relative;
+  width: 100%;
+  height: 11px;
+  overflow: visible;
+  background: url(../../../images/stream/bg_mystream_bottom2.png) no-repeat;
+}
+
+.page_navi2 {
+  position: relative;
+  z-index: 3;
+  width: 100%;
+  height: 11px;
+  background: url(../../../images/stream/bg_mystream_bottom2.png) no-repeat;
+}
+
+.single .more_view {
+  background: url(../../../images/stream/bg_mystream_bottom3.png) no-repeat left top;
+}
+
+.btn_type_strong_1 {
+  display: inline-block;
+  height: 33px;
+  vertical-align: top;
+  margin: 0 2px;
+  padding-left: 2px;
+  overflow: visible;
+  background: url(../../../images/button/btn_strong_type1_l.png) no-repeat left top;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn_type_strong_5 {
+  display: inline-block;
+  height: 33px;
+  vertical-align: top;
+  margin: 0 2px;
+  padding-left: 2px;
+  overflow: visible;
+  background: url(../../../images/button/btn_strong_type1_l.png) no-repeat left top;
+  cursor: pointer;
+}
+
+.btn_type_strong_6 {
+  display: inline-block;
+  height: 33px;
+  vertical-align: top;
+  margin: 0 2px;
+  padding-left: 2px;
+  overflow: visible;
+  background: url(../../../images/button/btn_strong_type1_l.png) no-repeat left top;
+  cursor: pointer;
+}
+
+.btn_type_strong_1 .btn_inner {
+  position: relative;
+  top: 0;
+  display: inline-block;
+  height: 33px;
+  margin: 0;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_strong_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_strong_5 .btn_inner {
+  display: inline-block;
+  height: 33px;
+  margin: 0;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_strong_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_strong_6 .btn_inner {
+  display: inline-block;
+  height: 33px;
+  margin: 0;
+  padding-right: 2px;
+  background: url(../../../images/button/btn_strong_type1_r.png) no-repeat right top;
+  vertical-align: top;
+}
+
+.btn_type_strong_1 .btn {
+  display: inline-block;
+  height: 33px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  border: 0;
+  background: url(../../../images/button/btn_strong_type1.png) repeat-x left top;
+}
+
+.btn_type_strong_5 .btn {
+  display: inline-block;
+  height: 33px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  border: 0;
+  background: url(../../../images/button/btn_strong_type1.png) repeat-x left top;
+}
+
+.btn_type_strong_6 .btn {
+  display: inline-block;
+  height: 33px;
+  padding: 0 12px;
+  vertical-align: top;
+  text-align: center;
+  border: 0;
+  background: url(../../../images/button/btn_strong_type1.png) repeat-x left top;
+}
+
+.btn_type_strong_1.btn_me2 .status {
+  display: inline-block;
+  padding-left: 19px;
+  height: 33px;
+  line-height: 33px;
+  background: url(../../../images/button/bul_me2_w.png) no-repeat scroll 0 center;
+}
+
+.me2box.type_7 .me2_count.big {
+  height: 33px !important;
+  line-height: 32px !important;
+  padding-left: 6px;
+  font-size: 12px !important;
+  background: url(../../../images/discovery/bg_me2count5_l.png) no-repeat left top !important;
+}
+
+.me2box.type_7 .me2_count.big b {
+  height: 33px !important;
+  line-height: 32px !important;
+  font-size: 12px !important;
+  background: url(../../../images/discovery/bg_me2count5_r.png) no-repeat right top !important;
+}
+
+.pi_s .wrap {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../../../images/stream/fb_pf_s.png) no-repeat scroll 0 0;
+}
+
+.c_topbar .c_search_suggestion .ui-autocomplete li a .wrap:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 30px;
+  height: 30px;
+  background: url(../../../images/stream/fb_pf_s.png) no-repeat 0 0;
+}
+
+.profile_box_inner {
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+  padding: 33px 36px 25px;
+  background: url(../../../images/single/bg_profile_box_2.gif) no-repeat 60px top;
+}
+
+    .color_set1 {
+      background-color: #93D5F1 !important;
+      border-color: #93D5F1 !important;
+    }
+
+    /* 상단 띠 */
+    .color_set2 {
+      background-color: #FFFFFF !important;
+    }
+
+    /* 배경 색 */
+    .color_set3 {
+      background-color: #93D5F1 !important;
+    }
+
+    /* 프로필 테두리 */
+    .color_set4,
+    .color_set4 a,
+    .color_set4 p {
+      color:#3398DE !important;
+    }
+
+    /* 모든 텍스트 */
+    .color_set5, a.color_set5, .color_set5 a {
+      color:  !important;
+    }
+
+    .skin_btn a.text_link {
+      text-decoration: none;
+      color: #3398DE;
+      font-size: 12px;
+      border: 1px solid #93D5F1;
+      padding: 5px;
+    }
+
+.post .post_body .post_token,
+.post .post_body .post_text_body,
+.post .post_body .pingback_container .post .post_body .post_token,
+.post .post_body .pingback_container .post .post_body .post_text_body,
+.post .post_body .post_added, .type_attached,
+.post .post_body .pingback_container .post .post_body .post_added {
+  margin-left: 50px;
+}
+
+.map_location_alt {
+  padding: 0px 0px 10px 10px;
+  font-size: 13px;
+}
+
+</style>
+    <script src="../../../scripts/jquery-1.10.2.min.js"></script>
+<script>
+  function showProfilePopup(url, frame, x, y) {
+    $(frame).find('iframe').attr('src', url);
+    $(frame).css('left', x);
+    $(frame).css('top', y);
+    $(frame).css('z-index', 100);
+    $(frame).css('display', 'inline');
+    $(frame).css("position", "absolute");
+  }
+
+  function hideProfilePopup() {
+    var frame = "#profile_popup_frame";
+    $(frame).find('iframe').attr('src', "about:blank");
+    $(frame).css('display', 'none');
+  }
+
+  function getPostIdSelector(url) {
+    return escapeSelector(removeExt(url.substr(url.lastIndexOf('/') + 1)));
+  }
+
+  function escapeSelector(selector) {
+    return selector.replace(/\./g, "\\.");
+  }
+
+  function removeExt(filename) {
+    return filename.replace(/\.html$/, '')
+  }
+
+  function toggle(selector) {
+    if ($(selector).is(":visible")) {
+      $(selector).hide();
+    } else {
+      $(selector).show();
+    }
+  }
+
+  function loadUrl(url, placeHolder) {
+    $.get(url, function (data) {
+      $(placeHolder).replaceWith(data);
+    });
+  }
+
+  function selectTab(group, selected) {
+    $(selected).show();
+    var tabs = $(group).not(selected);
+    for (var index = 0; index < tabs.length; index++) {
+      $(tabs[index]).hide();
+    }
+  }
+
+  function hideNotFistPhotos(selector) {
+    var photoBoxes = $(selector);
+    for(var boxIndex = 0; boxIndex < photoBoxes.length; boxIndex++) {
+      var notFristPhotos = $(photoBoxes[boxIndex]).find(".photo").not(":first");
+      for(var photoIndex = 0; photoIndex < notFristPhotos.length; photoIndex++) {
+        $(notFristPhotos[photoIndex]).hide();
+      }
+    }
+  }
+
+  function bindProfilePopup() {
+    $(".profile_popup").on("click", function (event) {
+      event.preventDefault();
+      var frame = "#profile_popup_frame";
+      showProfilePopup( $(this).attr('href'), frame, event.pageX, event.pageY);
+    })
+  }
+
+  function bindMorePostListBtn(button, link, placeHolder) {
+    $(button).on("click", function (event) {
+      event.preventDefault();
+      loadUrl($(link).attr('href'), placeHolder);
+    });
+  }
+
+  function bindTabs(tabSelector) {
+    $(tabSelector).on("click", function (event) {
+      event.preventDefault();
+      var group = ".group_" + escapeSelector($(this).attr("data-rel"));
+      var selected = escapeSelector($(this).attr("href"));
+      selectTab(group, selected);
+    })
+  }
+
+  function bindToggle() {
+    $(".metoo_toggle").on("click", function (event) {
+      event.preventDefault();
+      var id = "#metoo_" + getPostIdSelector($(this).attr('href'));
+      toggle(id);
+    });
+
+    $(".comment_toggle").on("click", function (event) {
+      event.preventDefault();
+      var id = "#comment_" + getPostIdSelector($(this).attr('href'));
+      toggle(id);
+    });
+  }
+
+  function bindNoLink() {
+    $('.no_link').click(function(event)
+    {
+      event.preventDefault();
+    });
+  }
+</script>
+  <script>
+    $(document).ready(function () {
+      hideNotFistPhotos(".photo_box");
+      bindTabs(".multi_photo_thumb .img_link");
+      bindToggle();
+      bindNoLink();
+    });
+  </script>
+</head>
+<body >
+<div class="skin_body color_set1 color_set2" id="skin_body_layer"></div>
+<div id="mystream">
+    <div class="c_topbar" id="id_gnb_topbar">
+  <div class="c_topbar_wrap">
+    <h1 class="s_logo">
+      <img src="../../../images/common/c_me2_logo_wt.png" alt="me2day" width="96" height="23" id="image_top_logo_img">
+    </h1>
+  </div>
+</div>
+  <div id="container">
+    <div class="side_mn" id="side_bar">
+      <div class="whoareyou">
+  <div class="profile_image color_set3">
+    <div class="image_box">
+      <a >
+        <img class="profile_img" src="../../../img/images/user/vier/profile.png" alt="영민군" height="77" width="77">
+      </a>
+    </div>
+  </div>
+  <div class="user_info">
+    <h2 class="color_set4"><a id="user_info_nickname" >영민군</a></h2>
+    <div class="user_intro" id="user_intro_box">
+      <p id="my_description" class="color_set5">
+        백수
+      </p>
+    </div>
+  </div>
+</div>
+      <div class="menu_navi" id="sidebar_menu_navi">
+  <ul id="accordion">
+    <li class="mystream_link toggle">
+      <a class="mystream_link land">나는</a>
+      <div>
+        <ul class="sub_list">
+          <li><a href="../../../posts/all/t.W2g/index.html">모든글</a></li>
+          <li><a href="../../../posts/archive/t.W2g/index.html">돌아보는</a></li>
+          <li><a href="../../../posts/photo/t.W2g/index.html">포토</a></li>
+          <li><a href="../../../posts/theme/t.W2g/index.html">글감</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mystream_link">
+      <a class="mystream_link land">친구들과</a>
+      <div>
+        <ul class="sub_list">
+          <li><a href="../../../streams/withfriends/t.W2g/index.html">모든글</a></li>
+          <li><a href="../../../streams/received/t.W2g/index.html">받은댓글</a></li>
+          <li><a href="../../../streams/mentioned/t.W2g/index.html">소환받은글</a></li>
+        </ul>
+      </div>
+    </li>
+    <li class="mystream_link">
+      <a class="mystream_link land" href="../../../stats/t.W2g/index.html">활동정보</a>
+    </li>
+  </ul>
+</div>
+
+    </div>
+    <div class="section_wrap">
+      <div class="content_header">
+        <div class="content_breadcrum">
+          <h2 class="parent">친구들과</h2>
+		    <span class="all_friend" id="content_breadcrum_title">
+              <button class="group_name" type="button">모든글</button>
+			</span>
+        </div>
+      </div>
+      <div class="contents_wrap" id="container_contents">
+              <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="민이대디" src="../../../img/images/user/leesbok/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">민이대디</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/post_category/think.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                애기들도 좋아하고, 출사지로도 괜찮은 대관령 양떼목장...
+
+      </span>
+      <span class="date_time" title="10.11.01 22:46">10.11.01 22:46</span>
+    </div>
+    <p class="post_tag">
+      <span>요샌 어딜가나 DSLR들이 많이 보이는게 똑딱이 들고가면 살짝 부끄러울 것 같은..</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.pOD8" class="photo group_p.JFdjk.xrc">
+                <a href="../../../img/20101101_41/me2photo_1288619080778jBXbh_jpg/leesbok_1288619078_12966_me2photo.jpg"><img src="../../../img/20101101_41/me2photo_1288619080778jBXbh_jpg/leesbok_1288619078_12966_me2photo.w640.jpg" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="꿈트리" src="../../../img/images/user/sylee999/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">꿈트리</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  조금만 있다가 진급턱 쏘면 
+
+                <a href="http://me2day.net/ourhome_nhn/2010/11/01#18:27:54">2+1이벤트</a>
+
+                  인데 -_-;  
+
+      </span> <span class="date_time c.V77fs.JEYUU.W2g">10.11.01 18:36</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  꿈트리
+                  님하의 수석 진급턱
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">마규니</a>
+
+                   ㅋㅋㅋㅋ 하지만 
+
+                <a class="profile_popup no_link">꿈트리</a>
+
+                  님하는 안보이시고 ㅋㅋㅋㅋ
+
+      </span> <span class="date_time c.V7p4Y.JEYUU.W2g">10.11.01 17:58</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  꿈트리
+                  님하의 수석 진급턱
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="마규니" src="../../../img/images/user/magyuuuuny/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">마규니</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  발렸다~ ㅋ
+
+      </span> <span class="date_time c.V7pm0.JEYUU.W2g">10.11.01 17:57</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  꿈트리
+                  님하의 수석 진급턱
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="마규니" src="../../../img/images/user/magyuuuuny/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">마규니</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  내가 찍은것 보다 선명하닷~ 
+
+      </span> <span class="date_time c.V7pi0.JEYUU.W2g">10.11.01 17:57</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  꿈트리
+                  님하의 수석 진급턱
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="알맹" src="../../../img/images/user/r_candy/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">알맹</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">엉아시대</a>
+
+                  랑 
+
+                <a class="profile_popup no_link">영민군</a>
+
+                  님은 정말 비슷
+
+      </span> <span class="date_time c.V6Bps.JD2-Q.hHk">10.11.01 13:59</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  제 미친중에 프사가 비슷하신 분이 3분 있어요 
+                  josephyeo
+                   
+                  엉아시대
+                   
+                  영민군
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">cobratop</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="cobratop" src="../../../img/images/user/cobratop/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">cobratop</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/post_category/think.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                제 미친중에 프사가 비슷하신 분이 3분 있어요 
+
+              <a class="profile_popup no_link">josephyeo</a>
+
+                 
+
+              <a class="profile_popup no_link">엉아시대</a>
+
+                 
+
+              <a class="profile_popup no_link">영민군</a>
+
+      </span>
+      <span class="date_time" title="10.11.01 13:56">10.11.01 13:56</span>
+    </div>
+    <p class="post_tag">
+      <span></span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="석짱" src="../../../img/20130216_79/seokzzang_1360992105827VDvIh_JPEG/original_profile.s75.jpg">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">석짱</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/seokzzang/icon_12.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                소셜앱스 팍팍 전진합니다!!!!
+
+      </span>
+      <span class="date_time" title="10.11.01 12:27">10.11.01 12:27</span>
+    </div>
+    <p class="post_tag">
+      <span>한달만에 1억돌파 기쁘다</span>
+    </p>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  네이버 소셜앱스토어 &lsquo;소셜앱스&rsquo;가 오픈한지 꼭 한달이 되네요. 여러분의 성원덕에 
+                  순항
+                  하고 있습니다.  모두모두 정말 감사드려요~^^
+          </span>
+          <span class="pingback_option_link">
+            <span class="option_inner">
+              by <a class="pingback_post_writer profile_popup no_link">일기남녀</a>
+            </span>
+          </span>
+        </div>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">꿈트리</a>
+
+                   ㅋㅋㅋ 독어가 아니라 천만다행?! ㅋㅋ
+
+      </span> <span class="date_time c.V5bVM.I7rwA.W2g">10.11.01 12:18</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  Start_With_No
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">송골루스</a>
+
+                   아항.. 검진지를 받아와야 하는 건가요?! 지난번에는 그냥 갔었는데..
+
+      </span> <span class="date_time c.V5a5A.JDe-Q.W2g">10.11.01 12:17</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  건강검진 신청 완료.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">레메디오스</a>
+
+                   아~ 그것도 좀 그렇겠구나 ㅋㅋ 안하길 잘했네!
+
+      </span> <span class="date_time c.V5atE.JDe-Q.W2g">10.11.01 12:16</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  건강검진 신청 완료.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="레메디오스" src="../../../img/images/user/tjanna84/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">레메디오스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  아픈게 아니라... 그 대장을 비우는 약을 먹는게 엄청나게 고통스러워.ㅋㅋㅋ 마시다 포기 -_- 
+
+      </span> <span class="date_time c.V5YoM.JDe-Q.W2g">10.11.01 12:09</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  건강검진 신청 완료.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  전 이번 토요일인데.. 검진지를 안받아와서 휴가중에 회사 가야하는 상황 ㅡㅡ;;
+
+      </span> <span class="date_time c.V42wc.JDe-Q.W2g">10.11.01 10:36</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  건강검진 신청 완료.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="쏘리쏘리" src="../../../img/images/user/so-wonder/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">쏘리쏘리</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  ㅋ하하
+
+      </span> <span class="date_time c.V1Uhg.JBt5Q.W2g">10.10.31 21:04</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  처자를 처가에 남겨두고 나홀로 상경
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="짙은파랑" src="../../../img/20130727_290/blue0sky_1374858651102jn65a_JPEG/original_profile.s75.jpg">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">짙은파랑</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  ㅋㅋㅋ그래도현실은 낼 출근
+
+      </span> <span class="date_time c.V0Uig.JBt5Q.W2g">10.10.31 18:47</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  처자를 처가에 남겨두고 나홀로 상경
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="짙은파랑" src="../../../img/20130727_290/blue0sky_1374858651102jn65a_JPEG/original_profile.s75.jpg">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">짙은파랑</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   북적거리는 곳이 아니라 쳠 편하죠 ㅎㅎ
+
+      </span> <span class="date_time c.V0Jkk.JBeU0.RMpc">10.10.31 18:16</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  친구가 운영하는 카페 - 카페즈키 - 한가한 시간에 치킨시켜 먹고 수다도 떨고 코딩도 하고 (--;) 좋다 ㅋㅋ
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">짙은파랑</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="험블" src="../../../img/images/user/humbleprogrammer/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">험블</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/humbleprogrammer/icon_5.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                부정적인 사람은 끊임없이 가능성만을 계산하지만, 긍정적인 사람은 행동으로 그 가능성을 높여간다. 긍정은 자신의 삶을 타인이나 사회의 준거에 의존하지 않고, 스스로의 운명을 개척하려는 삶의 자세이기 때문이다. 긍정은 열정의 다른 이름이다.
+
+      </span>
+      <span class="date_time" title="10.10.30 20:24">10.10.30 20:24</span>
+    </div>
+    <p class="post_tag">
+      <span>자세</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="꿈트리" src="../../../img/images/user/sylee999/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">꿈트리</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  영어다!
+
+      </span> <span class="date_time c.VmTgE.I7rwA.W2g">10.10.29 15:37</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  Start_With_No
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">아폴로군</a>
+
+                   ㅎㅎㅎ
+
+      </span> <span class="date_time c.VggCY.I5rGY.W2g">10.10.28 19:14</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  아 맞다.. Big Bang Theory 다 받았다..ㅋㅋㅋ ( 쌩유 
+                  아폴로군
+                   )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">유령상어</a>
+
+                   ㅋㅋㅋ예압~
+
+      </span> <span class="date_time c.VggA8.I5rGY.W2g">10.10.28 19:14</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  아 맞다.. Big Bang Theory 다 받았다..ㅋㅋㅋ ( 쌩유 
+                  아폴로군
+                   )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">꿈트리</a>
+
+                  ㅋㅋ 
+
+                <a class="profile_popup no_link">아폴로군</a>
+
+                   ftp 가 속도가 좋더라고요~^^
+
+      </span> <span class="date_time c.Vgf9Y.I5rGY.W2g">10.10.28 19:14</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  아 맞다.. Big Bang Theory 다 받았다..ㅋㅋㅋ ( 쌩유 
+                  아폴로군
+                   )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="꿈트리" src="../../../img/images/user/sylee999/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">꿈트리</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  저는 
+
+                <a class="profile_popup no_link">영민군</a>
+
+                  에 빌붙어 복사받아야겠네. 
+
+                <a class="profile_popup no_link">영민군</a>
+
+                   복사좀...
+
+      </span> <span class="date_time c.Vget0.I5rGY.W2g">10.10.28 19:10</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  아 맞다.. Big Bang Theory 다 받았다..ㅋㅋㅋ ( 쌩유 
+                  아폴로군
+                   )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="유령상어" src="../../../img/images/user/naviedcs/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">유령상어</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  열심히 봐
+
+      </span> <span class="date_time c.Vgbeo.I5rGY.W2g">10.10.28 19:02</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  아 맞다.. Big Bang Theory 다 받았다..ㅋㅋㅋ ( 쌩유 
+                  아폴로군
+                   )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="아폴로군" src="../../../img/images/user/preempt/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">아폴로군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  으헐;;
+
+      </span> <span class="date_time c.VgUC0.I5rGY.W2g">10.10.28 18:43</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  아 맞다.. Big Bang Theory 다 받았다..ㅋㅋㅋ ( 쌩유 
+                  아폴로군
+                   )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="인술" src="../../../img/images/user/insoul/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">인술</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">미울</a>
+
+                   확인했고요, 
+
+                <a class="profile_popup no_link">봄눈</a>
+
+                  님이 수정해주실꺼에요~
+
+      </span> <span class="date_time c.Vfzpg.I5ZH0.otE">10.10.28 17:26</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  회원 가입 페이지에서 글씨가 살짝 짤리는 것 같습니다.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="고요비" src="../../../img/images/user/naval40/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">고요비</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   발생은 계속된다그러구요...케이스는 음..제가 그자리가서 봐야할듯..^^;
+
+      </span> <span class="date_time c.VfsfM.I5VO4.otE">10.10.28 17:11</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  미투 알림페이지에서 특정 항목을 삭제를 하고 페이지 새로고침하면 삭제한게 다시 보인다는 제보(아이디 kaki2008)가 있었는데요..제계정은 괜찮은데..확인가능하신분?
+                  영민군
+                  구이김
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">고요비</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="미울" src="../../../img/20131226_281/justinpark_1388056682011EXRXa_PNG/original_profile.s75.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">미울</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">인술</a>
+
+                   
+
+                <a class="profile_popup no_link">봄눈</a>
+
+                   확인바라~ 
+
+      </span> <span class="date_time c.VfqxQ.I5ZH0.otE">10.10.28 17:07</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  회원 가입 페이지에서 글씨가 살짝 짤리는 것 같습니다.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="구이김" src="../../../img/images/user/iamguikim/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">구이김</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                  님의 초고속 대응에 감사드리옵니다
+
+      </span> <span class="date_time c.VfpP8.I5VO4.otE">10.10.28 17:04</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  미투 알림페이지에서 특정 항목을 삭제를 하고 페이지 새로고침하면 삭제한게 다시 보인다는 제보(아이디 kaki2008)가 있었는데요..제계정은 괜찮은데..확인가능하신분?
+                  영민군
+                  구이김
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">고요비</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="고요비" src="../../../img/images/user/naval40/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">고요비</a>
+        </div>
+      </div>
+    <div class="post_body none_icon">
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                미투 알림페이지에서 특정 항목을 삭제를 하고 페이지 새로고침하면 삭제한게 다시 보인다는 제보(아이디 kaki2008)가 있었는데요..제계정은 괜찮은데..확인가능하신분?
+
+              <a class="profile_popup no_link">영민군</a>
+
+              <a class="profile_popup no_link">구이김</a>
+
+      </span>
+      <span class="date_time" title="10.10.28 16:41">10.10.28 16:41</span>
+    </div>
+    <p class="post_tag">
+      <span>버그신고?</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">마규니</a>
+
+                   자리이동?! ㅋㅋㅋ
+
+      </span> <span class="date_time c.VecF8.I41yM.W2g">10.10.28 13:57</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  양지바른 내 자리
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="마규니" src="../../../img/images/user/magyuuuuny/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">마규니</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  내 자리는 추워~
+
+      </span> <span class="date_time c.VeGh0.I41yM.W2g">10.10.28 13:00</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  양지바른 내 자리
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">인술</a>
+
+                   이제 노래 좀 들어볼까 했더니;; 용량이 없네요;; 32기가면 풍족했을라나 싶어요 ㅋㅋ
+
+      </span> <span class="date_time c.VZHcE.I28zA.W2g">10.10.27 18:59</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  32기가 살껄;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="인술" src="../../../img/images/user/insoul/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">인술</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  apps 쩐다;; 노래는 나보다 적넹 ㅋㅋ
+
+      </span> <span class="date_time c.VZC5A.I28zA.W2g">10.10.27 18:48</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  32기가 살껄;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="요서비" src="../../../img/images/user/1004c/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">요서비</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                    ㅋ~ 나도 놀랬어~ ㅋ 
+
+      </span> <span class="date_time c.VY-AA.IxEOU.eBw">10.10.27 18:37</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  우와~ 2년만에 컴백~ ㅋㅋㅋ
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">요서비</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">요서비</a>
+
+                   ㅎㅎ 
+
+      </span> <span class="date_time c.VY1yc.Izi_A.W2g">10.10.27 18:17</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  radiohead | banana co
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">송골루스</a>
+
+                   그말이 정답! ㅋㅋ
+
+      </span> <span class="date_time c.VY1sQ.Iz6ts.W2g">10.10.27 18:17</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  유도리
+                   ゆとり
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="아폴로군" src="../../../img/images/user/preempt/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">아폴로군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/preempt/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a class="profile_popup no_link">영민군</a>
+
+                 좀 자는게 어떨까 싶소..;;
+
+      </span>
+      <span class="date_time" title="10.10.27 01:38">10.10.27 01:38</span>
+    </div>
+    <p class="post_tag">
+      <span>애기아빠는 애기랑 같이 일찍 꿈나라로~~</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="꿈트리" src="../../../img/images/user/sylee999/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">꿈트리</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/post_category/think.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a class="profile_popup no_link">영민군</a>
+
+                  한번만 봐줍쇼. 덜덜덜...
+
+      </span>
+      <span class="date_time" title="10.10.27 01:32">10.10.27 01:32</span>
+    </div>
+    <p class="post_tag">
+      <span></span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="요서비" src="../../../img/images/user/1004c/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">요서비</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  이야~ 라디오헤드.....~
+
+      </span> <span class="date_time c.VSO8I.Izi_A.W2g">10.10.26 20:09</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  radiohead | banana co
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   미투에도 적용하면 좋을 것 같은 단어에요..ㅋㅋ &quot;앗차!&quot;
+
+      </span> <span class="date_time c.VQUaQ.Iz6_U.BJig">10.10.26 15:05</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  애플 스토어의 재미있는 오류 페이지
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">송골루스</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  유도리는 유도리있게 있어야죠...ㅋ
+
+      </span> <span class="date_time c.VQT0Y.Iz6ts.W2g">10.10.26 15:03</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  유도리
+                   ゆとり
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/post_category/think.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                애플 스토어의 재미있는 오류 페이지
+
+      </span>
+      <span class="date_time" title="10.10.26 15:01">10.10.26 15:01</span>
+    </div>
+    <p class="post_tag">
+      <span>앗차! me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.nVRU" class="photo group_p.Iz6_U.BJig">
+                <a href="../../../img/20101026_219/me2photo_1288072897998swPFq_jpg/saltdoll012_1288072897_06029_me2photo.jpg"><img src="../../../img/20101026_219/me2photo_1288072897998swPFq_jpg/saltdoll012_1288072897_06029_me2photo.w640.jpg" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="김군" src="../../../img/images/user/teddykim28/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">김군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   아니에요 항상 고생이 많으시네요 ^^
+
+      </span> <span class="date_time c.VPgTQ.IzjlU.BIas">10.10.26 12:42</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  친구들은 카테고리에서 일부 카테고리가 페이지 오류 나던게 고쳐진 것 같네요. 이젠 엄청 빨리 열려요! 고쳐진게 맞죠~~?? 
+                  boss
+                   
+                  탑레이
+                   
+                  영민군
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">김군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="김군" src="../../../img/images/user/teddykim28/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">김군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/teddykim28/icon_5.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                친구들은 카테고리에서 일부 카테고리가 페이지 오류 나던게 고쳐진 것 같네요. 이젠 엄청 빨리 열려요! 고쳐진게 맞죠~~?? 
+
+              <a class="profile_popup no_link">boss</a>
+
+                 
+
+              <a class="profile_popup no_link">탑레이</a>
+
+                 
+
+              <a class="profile_popup no_link">영민군</a>
+
+      </span>
+      <span class="date_time" title="10.10.26 11:07">10.10.26 11:07</span>
+    </div>
+    <p class="post_tag">
+      <span></span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="여마" src="../../../img/images/user/noyoma/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">여마</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">꿈의팝송</a>
+
+                   
+
+                <a class="profile_popup no_link">오당고</a>
+
+                   
+
+                <a class="profile_popup no_link">pickup</a>
+
+                   
+
+                <a class="profile_popup no_link">영민군</a>
+
+                   온라인 발매는 11월 1일라고 하네요! 네이버 뮤직에서도 그때 정확히 서비스 할꼐요~
+
+      </span> <span class="date_time c.VL8xU.Ix-es.kA">10.10.25 22:15</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  오늘 발매된 브로콜리너마저 2집은 네이버 뮤직에 언제 올라올까.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">꿈쏭</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="여마" src="../../../img/images/user/noyoma/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">여마</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">꿈의팝송</a>
+
+                   
+
+                <a class="profile_popup no_link">오당고</a>
+
+                   
+
+                <a class="profile_popup no_link">pickup</a>
+
+                   
+
+                <a class="profile_popup no_link">영민군</a>
+
+                   오프라인만 먼저 풀리고 온라인은 아직...인걸로 보이네요~
+
+      </span> <span class="date_time c.VL4F4.Ix-es.kA">10.10.25 22:08</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  오늘 발매된 브로콜리너마저 2집은 네이버 뮤직에 언제 올라올까.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">꿈쏭</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="엘리후" src="../../../img/images/user/bigbend/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">엘리후</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   맛있겠지? 맛있어 ㅋㅋㅋ
+
+      </span> <span class="date_time c.VLXKI.IySBw.BaFQ">10.10.25 21:16</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  젠장 오늘은 대창 곱창 간 천엽의 콜라버레이션이다!!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">엘리후</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">마규니</a>
+
+                   ㅋㅋㅋ 느낌 팍 오던데요~ 
+
+      </span> <span class="date_time c.VKxYI.Ix0R0.W2g">10.10.25 20:06</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  마규니
+                  님하의 마음.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="꿈쏭" src="../../../img/20131219_138/jaystory_1387388614179vgEw6_PNG/original_profile.s75.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">꿈쏭</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/jaystory/icon_4.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                오늘 발매된 브로콜리너마저 2집은 네이버 뮤직에 언제 올라올까.
+
+      </span>
+      <span class="date_time" title="10.10.25 19:14">10.10.25 19:14</span>
+    </div>
+    <p class="post_tag">
+      <span>빨리 듣고 싶어욧! me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.nHKA" class="photo group_p.Ix-es.kA">
+                <a href="../../../img/20101025_264/me2photo_12880016171768tmOv_png/jaystory_1288001616_69283_me2photo.png"><img src="../../../img/20101025_264/me2photo_12880016171768tmOv_png/jaystory_1288001616_69283_me2photo.w640.png" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="마규니" src="../../../img/images/user/magyuuuuny/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">마규니</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  먹고 야근모드~
+
+      </span> <span class="date_time c.VKXMQ.Ix0R0.W2g">10.10.25 19:06</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  마규니
+                  님하의 마음.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="짙은파랑" src="../../../img/20130727_290/blue0sky_1374858651102jn65a_JPEG/original_profile.s75.jpg">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">짙은파랑</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/post_category/think.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                아... 잘 되려나...
+
+      </span>
+      <span class="date_time" title="10.10.25 18:02">10.10.25 18:02</span>
+    </div>
+    <p class="post_tag">
+      <span></span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="다즈" src="../../../img/images/user/thedaz/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">다즈</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   얍. 뛴 사람도 고생, 알바생도 고생.
+
+      </span> <span class="date_time c.VJTbQ.IwzNs.Us">10.10.25 16:33</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  쓰레기 분리 수거... 가 아니고 물품 보관소. 뛴 시간이랑 찾는 시간이랑 비슷.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">다즈</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">송골루스</a>
+
+                   역시 주범은 몸뚱아리;; 
+
+      </span> <span class="date_time c.VI6fQ.Iw2Dk.W2g">10.10.25 15:29</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  저녁 7시가 되어도 어깨가 안아플 수 있는 방법 없나?!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  수영
+
+      </span> <span class="date_time c.VIzYg.Iw2Dk.W2g">10.10.25 15:10</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  저녁 7시가 되어도 어깨가 안아플 수 있는 방법 없나?!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">꿈트리</a>
+
+                   아항~ 말씀듣고보니 노트북이 주범인것 같네요! ㅋㅋㅋ 
+
+      </span> <span class="date_time c.VIJD0.Iw2Dk.W2g">10.10.25 13:10</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  저녁 7시가 되어도 어깨가 안아플 수 있는 방법 없나?!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="꿈트리" src="../../../img/images/user/sylee999/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">꿈트리</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  일단, 모니터 높이를 눈높이에 맞게 올리시구요. 모니터를 정면에 두면 좀 좋아질껍니다. 저처럼!
+
+      </span> <span class="date_time c.VH7Qw.Iw2Dk.W2g">10.10.25 12:28</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  저녁 7시가 되어도 어깨가 안아플 수 있는 방법 없나?!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">짙은파랑</a>
+
+                   삼각근!!
+
+      </span> <span class="date_time c.VHcck.Iw2Dk.W2g">10.10.25 10:53</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  저녁 7시가 되어도 어깨가 안아플 수 있는 방법 없나?!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="짙은파랑" src="../../../img/20130727_290/blue0sky_1374858651102jn65a_JPEG/original_profile.s75.jpg">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">짙은파랑</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  자세 교정하고 삼각근을 키우는 거 말고는 방법이 없데요 -_-;
+
+      </span> <span class="date_time c.VHPbQ.Iw2Dk.W2g">10.10.25 10:14</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  저녁 7시가 되어도 어깨가 안아플 수 있는 방법 없나?!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">레메디오스</a>
+
+                   ㅎㅎ 마음은 그런데.  울면 아후 ㅋㅋㅋ
+
+      </span> <span class="date_time c.VFMqk.IrrVw.W2g">10.10.24 23:05</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  현서 백일 촬영 끝
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">대박</a>
+
+                   ㅋㅋㅋㅋㅋ
+
+      </span> <span class="date_time c.VFMSU.IrrVw.W2g">10.10.24 23:04</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  현서 백일 촬영 끝
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">마규니</a>
+
+                   ㅋㅋ아들이 듬직허니 좋죠 ㅋㅋ
+
+      </span> <span class="date_time c.VFMFE.IrrVw.W2g">10.10.24 23:04</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  현서 백일 촬영 끝
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="레메디오스" src="../../../img/images/user/tjanna84/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">레메디오스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  난 너무울어서 몇번씩실패해서 돌사진없대 엄마가 ㅋㅋㅋ 서러워근데 ㅋㅋ 꼭 다찍어줘야해 ㅋ 
+
+      </span> <span class="date_time c.U-xMo.IrrVw.W2g">10.10.23 23:18</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  현서 백일 촬영 끝
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="대박" src="../../../img/images/user/iuwe/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">대박</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  이쁘다 부릅다 꺄~~~ 악
+
+      </span> <span class="date_time c.U-pOI.IrrVw.W2g">10.10.23 23:04</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  현서 백일 촬영 끝
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="마규니" src="../../../img/images/user/magyuuuuny/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">마규니</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  역시 딸이 이뻐~
+
+      </span> <span class="date_time c.U-PJU.IrrVw.W2g">10.10.23 22:13</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  현서 백일 촬영 끝
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">민이대디</a>
+
+                   클났네요 ㅋㅋ
+
+      </span> <span class="date_time c.U91mM.IrrVw.W2g">10.10.23 21:20</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  현서 백일 촬영 끝
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="민이대디" src="../../../img/images/user/leesbok/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">민이대디</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  백일보다 돌사진이 더 힘들더군요 ㅎㅎ
+
+      </span> <span class="date_time c.U9oFI.IrrVw.W2g">10.10.23 20:49</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  현서 백일 촬영 끝
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="짙은파랑" src="../../../img/20130727_290/blue0sky_1374858651102jn65a_JPEG/original_profile.s75.jpg">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">짙은파랑</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   터치폰 ux 는 좀 바뀌어야 한다는... 터치폰 보급 이후로 엉덩이가 건 전화를 받은게 한두번이 아니라니깐요 ㅡ_ㅡ;;;
+
+      </span> <span class="date_time c.U9ilY.Iq5fc.W2g">10.10.23 20:36</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  미투취소기능 가끔 필요한 것 같다.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">bonjour</a>
+
+                   스킬을 연마해야 겠군요 ㅋㅋ (구내식당 갈치 조림 먹다가 가시에 찔린 1인)
+
+      </span> <span class="date_time c.U9Z8E.Io9qU.W2g">10.10.23 20:14</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  갈치 정말 싫어;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">짙은파랑</a>
+
+                   ㅋㅋㅋ 빙고?!  그냥 말이 그렇다는 ㅋㅋㅋ 절 탓해야죠 ㅜㅜ
+
+      </span> <span class="date_time c.U8nTo.Iq5fc.W2g">10.10.23 17:11</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  미투취소기능 가끔 필요한 것 같다.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="짙은파랑" src="../../../img/20130727_290/blue0sky_1374858651102jn65a_JPEG/original_profile.s75.jpg">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">짙은파랑</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  ux 를 바꾸면 되죠 클릭 대신 밀기 같은거루
+
+      </span> <span class="date_time c.U8S5o.Iq5fc.W2g">10.10.23 15:54</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  미투취소기능 가끔 필요한 것 같다.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="bonjour" src="../../../img/images/user/byfaithkim/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">bonjour</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  젓가락 신공으로 사사삭 발라먹은 1인
+
+      </span> <span class="date_time c.U4R60.Io9qU.W2g">10.10.22 21:32</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  갈치 정말 싫어;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  스킬을 연마하시면 되는데..ㅋ
+
+      </span> <span class="date_time c.U4G4Q.Io9qU.W2g">10.10.22 21:07</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  갈치 정말 싫어;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">레메디오스</a>
+
+                   ㅋㅋㅋ내가 오늘 좀 그랬지. 
+
+      </span> <span class="date_time c.U4D9k.IoWTo.W2g">10.10.22 21:01</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  샤워하다가 깜박깜박 해서 머리를 두번 감는 경우가 있는데;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">송골루스</a>
+
+                   살만 누가 발라주면 저도 좋은데 ㅋㅋㅋ
+
+      </span> <span class="date_time c.U4DsY.Io9qU.W2g">10.10.22 21:00</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  갈치 정말 싫어;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  전 없어서 못먹는데...
+
+      </span> <span class="date_time c.U358c.Io9qU.W2g">10.10.22 20:37</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  갈치 정말 싫어;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="레메디오스" src="../../../img/images/user/tjanna84/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">레메디오스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  ㅋㅋ 난 린스만 두번한적 있는데. 그날 왜이렇게 하루종일 머리에 기름지나..생각했지 -0-
+
+      </span> <span class="date_time c.U3KSY.IoWTo.W2g">10.10.22 18:26</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  샤워하다가 깜박깜박 해서 머리를 두번 감는 경우가 있는데;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">kukuman</a>
+
+                   ㅋㅋㅋ 기념사진찍을때는 무표정이에요 ㅎㅎ
+
+      </span> <span class="date_time c.U0-Zk.Ilp7s.W2g">10.10.22 12:14</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  99일째 현서
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">레메디오스</a>
+
+                   ^^ 이제 우낀 사진만 올려야겠어. ㅋㅋㅋㅋ
+
+      </span> <span class="date_time c.U0-Rw.IlqCs.W2g">10.10.22 12:13</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  100일째 현서
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="쿠쿠맨" src="../../../img/images/user/kukuman/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">쿠쿠맨</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  표정도 다양하고 귀엽 귀여워요 ㅋ
+
+      </span> <span class="date_time c.Uwju4.Ilp7s.W2g">10.10.21 19:26</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  99일째 현서
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="레메디오스" src="../../../img/images/user/tjanna84/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">레메디오스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  이쁘다 정말. ^^
+
+      </span> <span class="date_time c.Uusj4.IlqCs.W2g">10.10.21 14:46</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  100일째 현서
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="다즈" src="../../../img/images/user/thedaz/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">다즈</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   정리 완료. ㅎㅎ
+
+      </span> <span class="date_time c.UnCi4.IirBg.Us">10.10.20 12:05</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  아이폰 배경을 세경님으로 바꾸니 빨리 폴더를 만들어 아이콘들을 싹 다 정리하고픈 욕구가 불끈!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">다즈</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="꽃띠앙" src="../../../img/20140207_134/codian_1391740842150coUAA_PNG/original_profile.s75.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">꽃띠앙</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">탑레이</a>
+
+                  님 봐주세요.
+
+      </span> <span class="date_time c.UmJd0.IiAzQ.otE">10.10.20 09:04</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  동영상 + 앨범보기 시 레이아웃 깨짐
+                  .
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="엘리후" src="../../../img/images/user/bigbend/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">엘리후</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   너의 2세 만큼은 절대 아니야 ㅋㅋㅋ
+
+      </span> <span class="date_time c.Ul0FE.IhwXY.BaFQ">10.10.20 00:59</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  이건 히말라야 소금으로 만든 초라네..
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">엘리후</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="민이대디" src="../../../img/images/user/leesbok/profile.png">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">민이대디</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/user/leesbok/icon_5.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+              <a href="http://j.mp/d1f9Vf">얼마전 포스퀘어가 17시간 다운되었던 이유, 분석 및 조치내용</a>
+
+      </span>
+      <span class="date_time" title="10.10.19 23:22">10.10.19 23:22</span>
+    </div>
+    <p class="post_tag">
+      <span>Great Postmortem Report </span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="짙은파랑" src="../../../img/20130727_290/blue0sky_1374858651102jn65a_JPEG/original_profile.s75.jpg">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">짙은파랑</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   짜잔짠짠 ㅜ_ㅜ
+
+      </span> <span class="date_time c.Uj3M8.IhduI.RMpc">10.10.19 21:17</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  밥이라도 잘먹자
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">짙은파랑</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">소라찜</a>
+
+                   아항 ㅋㅋ 왠지 두가게 주인은 동일인물일것 같아요
+
+      </span> <span class="date_time c.UjoQo.Ihn-w.W2g">10.10.19 20:47</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  선릉역 삼번출구에 버거킹 생겼네;;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="소라찜" src="../../../img/images/user/speedy781001/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">소라찜</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  그자리엔 카페베네 생김
+
+      </span> <span class="date_time c.UjliY.Ihn-w.W2g">10.10.19 20:42</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  선릉역 삼번출구에 버거킹 생겼네;;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="소라찜" src="../../../img/images/user/speedy781001/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">소라찜</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  1번출구에 있던거 3번 출구로 이전한거에요.
+
+      </span> <span class="date_time c.UjleI.Ihn-w.W2g">10.10.19 20:42</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  선릉역 삼번출구에 버거킹 생겼네;;;
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  로또만 되면. 요 아이템으로 시제품이라도 만들어봐야지. 
+
+      </span> <span class="date_time c.Ujgp4.Igwe8.W2g">10.10.19 20:31</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  내가 이래서;; 주머니형 항균 물티슈를 특허낼라 했는데;; ( 너무 아이디어가 간단해서 안된다고;; )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a  class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="짙은파랑" src="../../../img/20130727_290/blue0sky_1374858651102jn65a_JPEG/original_profile.s75.jpg">
+          </a>
+          <a  class="profile_nickname profile_popup" data-profile="off">짙은파랑</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="../../../img/images/post_category/think.png" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                밥이라도 잘먹자
+
+      </span>
+      <span class="date_time" title="10.10.19 19:52">10.10.19 19:52</span>
+    </div>
+    <p class="post_tag">
+      <span>me2mobile me2photo</span>
+    </p>
+  </div>
+  <div class="post_added">
+    <div class="function_link">
+
+    </div>
+  </div>
+  <div class="post_rcb">
+        <div class="embed_me2photo " style="">
+          <div class="photo_box">
+            <ul>
+              <li id="photo_h.lWXc" class="photo group_p.IhduI.RMpc">
+                <a href="../../../img/20101019_285/me2photo_1287485573693Ui67e_jpg/blue0sky_1287485573_01767_me2photo.jpg"><img src="../../../img/20101019_285/me2photo_1287485573693Ui67e_jpg/blue0sky_1287485573_01767_me2photo.w640.jpg" alt="미투포토"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">만박</a>
+
+                   아항!! 함 가봐야겠네요 ㅋㅋ 가지 정!벅! 
+
+      </span> <span class="date_time c.UjV7g.IhfAI.W2g">10.10.19 20:04</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  편식은 나쁘다고 배웠고, 먹어봐야 맛을 안다하였는데.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="만박" src="../../../img/images/user/sumanpark/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">만박</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  정자동 홀리차우에 가서 Eggplant 요리 고고싱
+
+      </span> <span class="date_time c.UjUpI.IhfAI.W2g">10.10.19 20:01</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  편식은 나쁘다고 배웠고, 먹어봐야 맛을 안다하였는데.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="만박" src="../../../img/images/user/sumanpark/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">만박</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  중국식 가지 볶음 요리들로 맛을 붙여바바. 나도 가지 싫어하다가 이제는 가지 엄청 좋아함.
+
+      </span> <span class="date_time c.UjULs.IhfAI.W2g">10.10.19 20:00</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  편식은 나쁘다고 배웠고, 먹어봐야 맛을 안다하였는데.
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="영민군" src="../../../img/images/user/vier/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">영민군</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">cobratop</a>
+
+                   변강쇠 밧데리를 필요로 하는 거는 아니죠? ㅋㅋㅋ
+
+      </span> <span class="date_time c.UhxZE.Igwe8.W2g">10.10.19 15:47</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  내가 이래서;; 주머니형 항균 물티슈를 특허낼라 했는데;; ( 너무 아이디어가 간단해서 안된다고;; )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="cobratop" src="../../../img/images/user/cobratop/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">cobratop</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  액정에서 적외선을 내서 자체소독하면 어떨까요
+
+      </span> <span class="date_time c.UhvT8.Igwe8.W2g">10.10.19 15:40</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  내가 이래서;; 주머니형 항균 물티슈를 특허낼라 했는데;; ( 너무 아이디어가 간단해서 안된다고;; )
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="마규니" src="../../../img/images/user/magyuuuuny/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">마규니</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  오노~~ ㅋ
+
+      </span> <span class="date_time c.UcawU.IeoG4.W2g">10.10.18 19:01</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  마규니
+                  님하의 생일 ㅋㅋ
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="다즈" src="../../../img/images/user/thedaz/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">다즈</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">영민군</a>
+
+                   땡큐요~
+
+      </span> <span class="date_time c.Ub4JU.IeY94.Us">10.10.18 17:23</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  아이폰4! 카메라 이상무!
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">다즈</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                <a class="profile_popup no_link">어싼</a>
+
+                   기능 추가가 필요하네요 ㅋ(
+
+                <a class="profile_popup no_link">다즈</a>
+
+                   
+
+                <a class="profile_popup no_link">영민군</a>
+
+                  )
+
+      </span> <span class="date_time c.UWLmg.Ia_Y0.BJig">10.10.17 16:58</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  조리원에서는 내가 할 일이 없다. 그래서 무한도전 보고 잠들어서 13시간 취침ㅋ 이렇게 잔게 얼마만인지..
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">송골루스</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+    <div class="post for_post">
+      <div class="post_head">
+        <div class="profile">
+          <a class="profile_img profile_popup no_link">
+            <img width="60" height="60" alt="송골루스" src="../../../img/images/user/saltdoll012/profile.png">
+          </a>
+          <a class="profile_nickname profile_popup no_link" data-profile="off">송골루스</a>
+        </div>
+      </div>
+    <div class="post_body">
+  <div class="post_sentiment">
+      <img src="http://static1.me2day.com/images/post/icon_comment2.png?1387189302" class="sentiment_icon" width="38" height="38">
+  </div>
+  <div class="post_text_body">
+    <div class="post_text">
+      <span class="me2text">
+                  와우~~ㅋ
+
+      </span> <span class="date_time c.UQzLU.IYA0s.W2g">10.10.16 13:11</span>
+    </div>
+        <div class="pingback_post">
+          <span class="pingback_post_body">
+                  새벽 한시 반 아직도 셋팅 중 ㅋ
+          </span>
+            <span class="pingback_option_link">
+                <span class="option_inner">
+                    by <a class="pingback_post_writer profile_popup no_link">영민군</a>
+			    </span>
+            </span>
+        </div>
+  </div>
+</div>
+    </div>
+  <div id="next-post-list" style="display:none;">
+    <a id="next-post-list-link" href="BK7M8c-g.c.UQzLU.IYA0s.W2g.html">more</a>
+  </div>
+      </div>
+      <div class="more_view">
+          <div class="page_nate kor">
+          <a href="30.html" class="btn_prev">이전</a>
+      <span class="page_num">
+            <a href="31.html" >31</a>
+            <a href="32.html" >32</a>
+            <a href="33.html" >33</a>
+            <a href="34.html" >34</a>
+            <a href="35.html" >35</a>
+            <a href="36.html" >36</a>
+            <a href="37.html" >37</a>
+            <a href="38.html" class="on">38</a>
+            <a href="39.html" >39</a>
+            <a href="40.html" >40</a>
+      </span>
+          <a href="41.html" class="btn_next">다음</a>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer" class="color_set2 color_set4">
+  <div class="footer_contents" style="position:relative">
+    <address>copyright © NAVER Corp.</address>
+  </div>
+</div>
+<iframe id="profile_popup_frame" width="358" height="285" frameBorder="0" src="about:blank" style="display: none;"></iframe>
+</body>
+</html>
